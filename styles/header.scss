@@ -16,7 +16,7 @@ header {
 }
 .activeLink {
   position: relative;
-  color: $green;
+  color:black;
   &::after {
     content: "";
     position: absolute;
@@ -24,7 +24,8 @@ header {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: $green;
+    background-color: blue;
+    
   }
 }
 

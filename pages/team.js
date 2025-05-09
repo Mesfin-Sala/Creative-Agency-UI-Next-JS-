@@ -8,7 +8,7 @@ const team = () => {
       <Head>
         <title>Team - 7Creative</title>
       </Head>
-      <Team />
+     
     </>
   )
 }

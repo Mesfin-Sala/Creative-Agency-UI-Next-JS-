@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "1+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ Scuccessful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -24,29 +24,93 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
-    cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    title: "CV (Curriculum Vitae)",
+    cover: "../images/CV-Example.png",
+    desc: [
+      {
+        text: "Launch Your Career with Confidence: Craft a professional CV in minutes with our student-friendly builder, showcasing your skills to land internships and jobs!",
+      },
+      {
+        text: "Stand Out to Recruiters: Create a polished, compact CV tailored for students, designed to highlight your academic achievements and grab employer attention.",
+      },
+      {
+        text: "Market Your Potential: Our CV builder transforms your experiences into a sleek document, optimized to shine in competitive job markets.",
+      },
+      {
+        text: "No Experience? No Problem: Build a standout CV that emphasizes your education and projects, perfect for students entering the workforce.",
+      },
+      {
+        text: "Get Noticed Fast: With our easy-to-use CV maker, create a professional profile that promotes your unique talents to recruiters in no time!",
+      },
+    ],
   },
   {
     id: 2,
-    title: "Digital Marketing",
-    cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    title: "Resume",
+    cover: "../images/yt.jpg",
+    desc: [
+      {
+        text: "Kickstart Your Job Hunt: Build a concise, student-focused resume with our maker, crafted to showcase your skills and secure your first role!",
+      },
+      {
+        text: "Impress Employers Instantly: Create a professional resume that highlights your academic and extracurricular strengths, tailored for student success.",
+      },
+      {
+        text: "Promote Your Skills Effortlessly: Our resume builder designs a sleek, one-page resume to market your potential to hiring managers.",
+      },
+      {
+        text: "Turn Projects into Opportunities: Even with limited experience, our resume maker creates a compelling profile to boost your career prospects.",
+      },
+      {
+        text: "Fast-Track Your Future: Use our student-friendly resume builder to craft a standout document that gets you noticed by employers quickly!",
+      },
+    ],
   },
   {
     id: 3,
-    title: "E-Commerce",
-    cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    title: "LinkedIn Profile",
+    cover: "../images/rr.jpg",
+    desc: [
+      {
+        text: "Stand Out to Recruiters: A professional LinkedIn profile optimized with keywords ensures recruiters find you first",
+      },
+      {
+        text: "Save Time, Gain Impact: Expert writers craft compelling summaries and headlines, saving you hours while maximizing visibility.",
+      },
+      {
+        text: "Attract Opportunities: 92% of recruiters use LinkedIn to find talent— a polished profile turns views into job offers.",
+      },
+      {
+        text: "Build Your Brand: A tailored profile showcases your skills and story, establishing credibility with employers and clients.",
+      },
+      {
+        text: "Stay Competitive: With millions on LinkedIn, a professionally optimized profile sets you apart in a crowded job market.",
+      },
+    ],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    title: "Notion Portfolio Website",
+    cover: "../images/nn.jpg",
+    desc: [
+      {
+        text: "Kickstart Your Career: Build a sleek Notion portfolio to showcase your student projects and grab the attention of recruiters in a compact design!",
+      },
+      {
+        text: "Stand Out Effortlessly: Create a professional portfolio website that markets your skills to employers and clients with a concise, student-friendly layout.",
+      },
+      {
+        text: "Boost Your Online Presence: Turn your Notion pages into an SEO-optimized portfolio, ensuring your work shines and recruiters find you first!",
+      },
+      {
+        text: "Promote Your Talent: Our Notion builder crafts a sharp, portable portfolio to highlight your academic and creative achievements in minutes.",
+      },
+      {
+        text: "Land Opportunities Fast: Build a streamlined portfolio website that showcases your unique skills and helps you secure internships or jobs as a student!",
+      },
+    ],
   },
-]
+];
 export const testimonial = [
   {
     id: 1,
@@ -81,7 +145,7 @@ export const showcase = [
   {
     id: 1,
     title: "Neon Lights",
-    cover: "../images/s1.jpg",
+    cover: "../images/12.jpeg",
     catgeory: "DIGITAL MARKETING",
   },
   {
@@ -114,7 +178,7 @@ export const showcase = [
     cover: "../images/s6.jpg",
     catgeory: "WEBSITES	",
   },
-]
+];
 export const brand = [
   {
     id: 1,
@@ -145,7 +209,7 @@ export const blogdata = [
   {
     id: 1,
     title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
+    cover: "../images/CV-Template-01.jpg",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },

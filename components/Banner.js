@@ -4,19 +4,19 @@ import { Title, TitleLogo } from "./common/Title"
 const Banner = () => {
   return (
     <>
-      <section className='banner'>
-        <div className='container'>
+      <section className="banner">
+        <div className="container">
           <div>
-            <Title title='We are looking forward to start a new project' /> <br />
-            <TitleLogo title='Lets take your business to the next level!' />
+            <Title title="Next Level You: CV, Resume & LinkedIn" /> <br />
+            <TitleLogo title="Get Ready!" />
           </div>
           <div>
-            <button className='button-primary'>Request a call-back</button>
+            <button className="button-primary">Request a call-back</button>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default Banner

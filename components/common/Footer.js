@@ -7,88 +7,91 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className='container'>
-          <div className='grid-4'>
-            <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+        <div className="container">
+          <div className="grid-4">
+            <div className="logo">
+              <TitleLogo
+                title="Career
+"
+                caption="J.U"
+                className="logobg"
+              />
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+251 949417565</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className="button-primary">Request for quote</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>Agency</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href="/">About agency</Link>
+              </li>
+
+              <li>
+                <Link href="/">Showcase</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href="/">Blog</Link>
               </li>
+
               <li>
-                <Link href='/'>Showcase</Link>
-              </li>
-              <li>
-                <Link href='/'>Blog</Link>
-              </li>
-              <li>
-                <Link href='/'>Demo design system</Link>
-              </li>
-              <li>
-                <Link href='/'>Contact</Link>
+                <Link href="/">Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href="/">CV(Curriculum Vitae)</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href="/">
+                  Resume 
+                </Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href="/">LinkedIn Profile</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href="/">Notion Portfolio Website</Link>
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
-              <div className='connect'>
+              <div className="connect">
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillBehanceCircle size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href="/">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
               </div>
             </ul>
           </div>
-          <div className='legal connect py'>
-            <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+          <div className="legal connect py">
+            <div className="text">
+              <span>© 2025 UTOPIA. ALL RIGHTS RESERVED.</span>
             </div>
-            <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+            <div className="connect">
+              <span>UTOPIA Agency</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>
@@ -96,7 +99,7 @@ const Footer = () => {
         </div>
       </footer>
     </>
-  )
+  );
 }
 
 export default Footer
